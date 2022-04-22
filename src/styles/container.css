@@ -1,0 +1,11 @@
+.application-container {
+  text-align: left;
+  background-color: var(--location-white);
+  min-height: 100%;
+}
+
+.container {
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+}

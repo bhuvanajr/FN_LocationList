@@ -1,0 +1,20 @@
+footer {
+  width: 100%;
+  margin-top: 1rem;
+  font-weight: 500;
+  padding: 1.25rem 0;
+  background: var(--location-white);
+  position:absolute;
+  bottom:0;
+  height:60px;
+}
+
+@media (max-width: 480px) {
+  footer {
+    text-align: center;
+  }
+}
+
+.nav li a {
+  color: var(--location-grey) !important;
+}
