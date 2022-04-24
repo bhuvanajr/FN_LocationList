@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ErrorMessageDisplay correctly 1`] = `
+<div>
+  <div
+    class="invalid-feedback d-block"
+    data-testid="ErrorMessage"
+    id="testId_errormessage"
+  >
+    <span
+      class="icon icon-alert"
+    />
+     Test error message
+  </div>
+</div>
+`;

@@ -18,7 +18,7 @@ export const ContainerFooter: React.FC = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#" target="_blank" rel="noreferrer">
-                <div data-label="footer.copyright">© Location List App</div>
+                <div data-label="footer.copyright">© The Location List</div>
               </a>
             </li>
           </ul>

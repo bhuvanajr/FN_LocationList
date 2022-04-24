@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TextInput correctly 1`] = `
+<div>
+  <input
+    mock="[object Object]"
+    name="testInput"
+  />
+</div>
+`;
+
+exports[`should render TextInput with ErrorMessage correctly when rules is passed 1`] = `
+<div>
+  <input
+    mock="[object Object]"
+    name="testInput"
+    rules="[object Object]"
+  />
+  <div>
+    ErrorMessage
+  </div>
+</div>
+`;
