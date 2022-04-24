@@ -28,7 +28,7 @@ export const LocationListOverviewProvider: React.FC = props => {
 
   useEffect(() => {
     const data = getQnA();
-    if (data) setState(s => ({ ...s, locationList: data! }));
+    if (data) setState(s => ({ ...s, locationList: data }));
   }, []);
 
   return (
