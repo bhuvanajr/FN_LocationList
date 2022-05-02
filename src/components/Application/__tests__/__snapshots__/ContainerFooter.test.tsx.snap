@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ContainerFooter correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="row "
+    >
+      <div
+        class="col-sm-auto"
+      >
+        <ul
+          class="nav flex-column flex-sm-row"
+        >
+          <li
+            class="nav-item"
+          >
+            <a
+              class="nav-link"
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Privacy
+            </a>
+          </li>
+          <li
+            class="nav-item"
+          >
+            <a
+              class="nav-link"
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Cookies
+            </a>
+          </li>
+          <li
+            class="nav-item"
+          >
+            <a
+              class="nav-link"
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <div
+                data-label="footer.copyright"
+              >
+                © The Location List
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

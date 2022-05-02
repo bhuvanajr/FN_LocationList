@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ContainerHeader correctly 1`] = `
+<div>
+  <div
+    class="head-wrapper"
+  >
+    <div
+      class="branding"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="Brand logo"
+          class="brand-image"
+          src="/assets/logo.png"
+        />
+      </a>
+      The Location List
+    </div>
+  </div>
+</div>
+`;

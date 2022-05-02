@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { LocationListGridBody } from './LocationListGridBody';
 import { LocationListGridHeader } from './LocationListGridHeader';
 import { useNavigate } from 'react-router-dom';
@@ -11,6 +10,7 @@ export const LocationListGrid: React.FC = () => {
   const handleAddLocation = () => {
     navigate(locationListPaths.newLocation);
   };
+
   return (
     <>
       <div className="title-block my-3">

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ApplicationContainer correctly 1`] = `
+<div>
+  <div
+    class="application-container"
+  >
+    <header>
+      <div>
+        ContainerHeader
+      </div>
+    </header>
+    <main
+      class="container mx-auto"
+    >
+      Test message
+    </main>
+    <footer>
+      <div>
+        ContainerFooter
+      </div>
+    </footer>
+  </div>
+</div>
+`;

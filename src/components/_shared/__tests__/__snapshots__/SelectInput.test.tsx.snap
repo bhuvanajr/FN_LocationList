@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SelectInput correctly 1`] = `
+<div>
+  <select
+    class="form-control form-select"
+    mock="[object Object]"
+    name="mockname"
+  >
+    <option
+      value=""
+    >
+      choose input
+    </option>
+    <option
+      value="option1"
+    >
+      option1
+    </option>
+    <option
+      value="option2"
+    >
+      option2
+    </option>
+  </select>
+</div>
+`;

@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render LocationListGrid correctly 1`] = `
+<div>
+  <div
+    class="title-block my-3"
+  >
+    <h2
+      class="mx-3 my-5"
+    >
+      Locations
+    </h2>
+  </div>
+  <div>
+    <div
+      class="row mb-3"
+    >
+      <div
+        class="col text-right"
+        style="min-height: 40px;"
+      >
+        <button
+          class="btn btn-submit d-inline-flex"
+          type="submit"
+        >
+          <span
+            class="icon icon-add"
+          />
+          <span
+            class="px-1"
+          >
+            Add Location
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="container-lg rounded mb-10 "
+  >
+    <div
+      class="bg-white table-responsive rounded"
+    >
+      <table
+        class="table mb-0"
+      >
+        <thead
+          class="table-light"
+        >
+          <tr>
+            <th
+              scope="col"
+            >
+              Location
+            </th>
+            <th
+              scope="col"
+            >
+              Location No
+            </th>
+            <th
+              scope="col"
+            >
+              Chargers
+            </th>
+            <th
+              scope="col"
+            >
+              Country
+            </th>
+            <th
+              scope="col"
+            >
+              Last updated
+            </th>
+            <th
+              scope="col"
+            />
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th
+              class="text-primary"
+              scope="row"
+            >
+              Wassenaar
+            </th>
+            <td>
+              345667
+            </td>
+            <td>
+              1
+            </td>
+            <td>
+              NLD
+            </td>
+            <td>
+              8 days ago
+            </td>
+            <td>
+              <button
+                class="btn-icon"
+                type="button"
+              >
+                <div
+                  class="icon icon-edit"
+                />
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th
+              class="text-primary"
+              scope="row"
+            >
+              Den Haag
+            </th>
+            <td>
+              345667
+            </td>
+            <td>
+              1
+            </td>
+            <td>
+              NLD
+            </td>
+            <td>
+              8 days ago
+            </td>
+            <td>
+              <button
+                class="btn-icon"
+                type="button"
+              >
+                <div
+                  class="icon icon-edit"
+                />
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
