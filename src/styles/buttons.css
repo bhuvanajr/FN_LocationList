@@ -1,0 +1,33 @@
+
+.btn {
+  background: transparent;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  cursor: pointer;
+ }
+
+.btn-icon {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  font-weight: 600;
+}
+
+.btn-submit {
+  color: var(--location-grey);
+  background-color: var(--location-yellow);
+  border:none;
+}
+
+.btn:hover {
+  background-color: var(--location-white);
+  border-color: var(--location-grey) !important;
+  border: 2px solid;
+  color:  var(--location-grey) !important;
+}
+
+.btn:visited {
+  background-color:var(--location-beige);
+  border: none ;
+}
+

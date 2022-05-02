@@ -1,0 +1,82 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import './styles/main.css';
+
+:root {
+  --location-white: #fff;
+  --location-grey: #4a4a49;
+  --location-yellow: #ffdd30;
+  --location-beige: #e5ddd6;
+}
+
+#root {
+  position: relative;
+  padding-bottom: 6.25rem;
+  min-height: 100vh;
+  font-family: 'Fieldwork Geo DemiBold', Arial, sans-serif;
+  color: var(--location-grey);
+  background-color: var(--location-beige);
+}
+
+.title {
+  display: block;
+  font-weight: 600;
+  width: 100%;
+}
+
+.subtitle {
+  display: block;
+  font-weight: 500;
+  text-transform: none;
+  width: 100%;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0.5em;
+}
+
+.title-block {
+  position: relative;
+  min-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: url(../public/assets/28571371.jpg); 
+  min-height: 15vh;
+  background-size: 100% 300%;
+  background-position: center center;
+  background-color: var(--location-white);
+}
+
+.text-right {
+  text-align: right;
+}
+
+div .container-lg {
+  margin-bottom: 4%;
+}
+
+main {
+  padding-bottom: 30px;
+}
+
+input[type='checkbox'] {
+  accent-color: var(--qa-green);
+}
+
+tr .text-primary {
+  color: var(--location-grey) !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 600;
+  color: var(--location-grey);
+}
+
+.bg-beige{
+  background-color: var(--location-beige);
+}
+
+.table{
+  color: var(--location-grey);
+}

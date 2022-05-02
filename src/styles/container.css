@@ -2,6 +2,7 @@
   text-align: left;
   background-color: var(--location-white);
   min-height: 100%;
+  background-color: inherit;
 }
 
 .container {

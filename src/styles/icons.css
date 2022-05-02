@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  src: url('../../public/assets/fontawesome/fa-solid-900.ttf');
+  src: url('../../public/assets/fontawesome/fa-solid-900.woff2');
+}
+
+.ascending:before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f15d';
+  display: inline-block;
+  padding-left: 20%;
+  vertical-align: middle;
+  font-weight: 900;
+  color: var(--qa-green);
+}
+.descending:before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f15e';
+  display: inline-block;
+  padding-left: 20%;
+  vertical-align: middle;
+  font-weight: 900;
+  color: var(--qa-green);
+}
+.icon-alert:before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f071';
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+  color: #dc3545;
+  padding-left: 1%;
+}
+.icon-add:before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\2b';
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+  color: var(--location-grey);
+  padding-left: 1%;
+}
+.icon-save:before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0c7';
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+  color: var(--location-grey);
+  padding-left: 1%;
+}
+
+.icon-edit:before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f304';
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+  color: var(--qa-green);
+  padding-left: 30%;
+}
+.icon-delete:before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f1f8';
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+  color: var(--qa-green);
+  padding-left: 30%;
+}
+.icon {
+  width: 1em;
+}
+

@@ -18,7 +18,7 @@ export const LocationListGrid: React.FC = () => {
       </div>
       <div>
         <div className="row mb-3">
-          <div className="col text-right">
+          <div className="col text-right" style={{ minHeight: '40px' }}>
             <button type="submit" className="btn btn-submit d-inline-flex" onClick={handleAddLocation}>
               <span className="icon icon-add" />
               <span className="px-1">Add Location</span>

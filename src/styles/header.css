@@ -1,0 +1,22 @@
+.head-wrapper {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background: var(--location-white);
+}
+
+.branding {
+  box-sizing: border-box;
+  font-weight: 700;
+}
+
+.brand-image {
+  padding: calc(15px);
+  height: 70px;
+  
+}
